@@ -9,4 +9,47 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sachonidas.halfrioja.CorrerActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sector a Pie:"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Punto de salida del triatlón: Centro de Tecnificación Javier Adarraga (Paseo de las Norias 3). Itinerario: Saliendo del Adarraga por la puerta sita entre el almacén de piraguas y la entrada de las piscinas, cruzaríamos la Avenida de la Playa para ir por el carril bici hasta el cruce con el Camino de El Ebro, el que tomaríamos para continuar por el hasta llegar al puente de Sagasta, el cual cruzamos para iniciar un recorrido por el Parque del Ebro hasta la Pasarela, la cual se cruza, girando a la derecha tomando el Paseo Manso de Zuñiga por su margen sur, bajando las escaleras para atravesar por debajo el Puente de Piedra y llegar hasta la fuente sita a la entrada del Camino de Santiago en Logroño. Haciendo un giro de 180º hacemos el mismo recorrido, tras pasar por debajo del Puente de Piedra, por el margen norte llegamos hasta unas escaleras que acceden al Puente de Hierro, el cual lo atravesamos en el carril de sentido contrario al habitual, hasta llegar a la calle Ruavieja, y girando a mano izquierda continuamos de frente hasta girar a la derecha en la travesía de Palacio, continuamos de frente hasta ver la Plaza del Mercado, la cual pasaremos diagonalmente hasta incorporarnos a la calle Portales. Seguimos hasta el cruce a derechas con calle Francisco Martinez Zaporta, bajando hasta llegar a calle Marques de San Nicolás (calle Mayor), girando a la izquierda y de inmediato a la derecha, para llegar por Calle Santiago hasta la iglesia, allí giramos a mano izquierda cruzando la plaza de la Oca y llegamos a Calle Sagasta, girando entonces a izquierdas para atravesar el Puente de Hierro. Al final de este giraremos a mano izquierda, tomaremos el carril de circulación de subida de la calle Cabo Noval hasta la esquina con el Adarraga, girando a izquierdas por la Avenida de la Playa y yendo por el carril bici hasta el inicio de este sector. Se darán tres vueltas a este recorrido. En la ultima vuelta al llegar a la puente de salida del sector se entrará a las instalaciones del Adarraga y se completará una vuelta a la pista para acabar en línea de META. "
+                android:id="@+id/textView10"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical|fill_vertical" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgCorrer" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inicio"
+                android:id="@+id/btnInicio"
+                android:layout_alignParentBottom="true"
+                android:layout_alignEnd="@+id/textView"
+                android:onClick="onClicLanzaInicio" />
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -24,74 +24,105 @@
         android:layout_alignParentEnd="true"
         android:textAlignment="center">
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton"
-            android:layout_row="0"
-            android:layout_column="0"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:minHeight="100dp"
-            android:minWidth="100dp"
-            android:onClick="onClickBienvenida"
-            android:tag="Info"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton2"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:minHeight="100dp"
-            android:minWidth="100dp"
-            android:tag="Recorrido"
-            android:onClick="lanzaRecorridos" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton3"
-            android:layout_row="0"
-            android:layout_column="2"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:minHeight="100dp"
-            android:minWidth="100dp"/>
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp"
+                    android:onClick="onClickBienvenida"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton4"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:minHeight="100dp"
-            android:minWidth="100dp"/>
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton2"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp"
+                    android:tag="Recorrido"
+                    android:onClick="lanzaRecorridos"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton5"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:minHeight="100dp"
-            android:minWidth="100dp"/>
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton3"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton6"
-            android:layout_row="1"
-            android:layout_column="2"
-            android:maxHeight="100dp"
-            android:maxWidth="100dp"
-            android:minHeight="100dp"
-            android:minWidth="100dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton4"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton5"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton6"
+                    android:layout_row="1"
+                    android:layout_column="2"
+                    android:maxHeight="100dp"
+                    android:maxWidth="100dp"
+                    android:minHeight="100dp"
+                    android:minWidth="100dp"
+                    android:layout_weight="1"
+                    android:onClick="lanzaContacto"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+        </LinearLayout>
     </GridLayout>
 </RelativeLayout>

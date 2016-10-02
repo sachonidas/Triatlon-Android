@@ -19,7 +19,8 @@
         <activity android:name=".RecorridosActivity" />
         <activity android:name=".NatacionActivity" />
         <activity android:name=".BiciActivity" />
-        <activity android:name=".CorrerActivity"></activity>
+        <activity android:name=".CorrerActivity" />
+        <activity android:name=".ContactoActivity"></activity>
     </application>
 
 </manifest>

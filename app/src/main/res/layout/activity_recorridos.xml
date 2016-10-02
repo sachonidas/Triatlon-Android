@@ -15,33 +15,43 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:rowCount="3"
-        android:columnCount="1">
+        android:columnCount="1"
+        android:layout_gravity="center">
 
-        <ImageButton
-            android:layout_width="700px"
-            android:layout_height="300px"
-            android:id="@+id/imgNatacion"
-            android:layout_row="0"
-            android:layout_column="0"
-            android:onClick="lanzaNatacion"
-            android:scaleType="fitStart" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <ImageButton
-            android:layout_width="700px"
-            android:layout_height="300px"
-            android:id="@+id/imgBici"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:onClick="lanzaBici"
-            android:scaleType="fitCenter" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:id="@+id/imgNatacion"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:onClick="lanzaNatacion"
+                android:scaleType="fitStart"
+                android:layout_weight="1" />
 
-        <ImageButton
-            android:layout_width="700px"
-            android:layout_height="300px"
-            android:id="@+id/imgCorrer"
-            android:layout_row="2"
-            android:layout_column="0"
-            android:onClick="lanzaCorrer"
-            android:scaleType="fitEnd" />
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:id="@+id/imgBici"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:onClick="lanzaBici"
+                android:scaleType="fitCenter"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:id="@+id/imgCorrer"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:onClick="lanzaCorrer"
+                android:scaleType="fitEnd"
+                android:layout_weight="1" />
+        </LinearLayout>
     </GridLayout>
 </RelativeLayout>
