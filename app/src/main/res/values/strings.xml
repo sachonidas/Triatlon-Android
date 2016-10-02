@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">I Half Rioja Triatlon</string>
+    <string-array name="pasosBici">
+        <item>1-	Av. de la Playa, 4, 26009 Logroño, La Rioja, España</item>
+        <item>2-	Dirígete al este por Av. de la Playa hacia Paseo Fermín Manso de Zuñiga	329 m</item>
+        <item>3-	Continúa por Calle Concepción Arenal.	124 m</item>
+        <item>4-	Gira a la izquierda hacia Calle San Ignacio de Loyola	469 m</item>
+        <item>5-	En la rotonda, toma la tercera salida en dirección Av. de la Sonsierra/N-232ª 	458 m</item>
+        <item>6-	En la rotonda, toma la segunda salida	443 m</item>
+        <item>7-	Continúa por Puente de Sagasta.	503 m</item>
+        <item>8-	En la rotonda, toma la tercera salida en dirección Calle Gral. Urrutia	523 m</item>
+        <item>9-	Gira a la derecha hacia Calle Carmen Medrano	153 m</item>
+        <item>10-	Gira a la derecha	120 m</item>
+        <item>11-	Gira a la izquierda hacia Calle Carmen Medrano	312 m</item>
+        <item>12-	Gira ligeramente a la derecha hacia Calle Carmen Medrano	158 m</item>
+        <item>13-	Gira a la izquierda en Travesía San Lázaro	14 m</item>
+        <item>14-	Gira a la derecha hacia Calle Carmen Medrano	317 m</item>
+        <item>15-	En rotonda, toma segunda salida en dirección Calle Duques de Nájera y Pasa 2 rotondas	1,25 km</item>
+        <item>16-	Gira a la derecha hacia Av. República Argentina y Pasa una rotonda		469 m</item>
+        <item>17-	En rotonda, toma la segunda salida en dirección Av. de la Sierra y Pasa una rotonda		608 m</item>
+        <item>18-	En la rotonda, toma la segunda salida en dirección Calle Sequoias 	302 m</item>
+        <item>19-	En la rotonda, toma la primera salida en dirección Av. de Madrid 		2,36 km</item>
+        <item>20-	Gira a la derecha hacia Av. de San Marcial	400 m</item>
+        <item>21-	Gira ligeramente a la izquierda hacia Calle Eduardo G. Gallarza	228 m</item>
+        <item>22-	Continúa por Av. de Entrena.	265 m</item>
+        <item>23-	Continúa por LR-254.	7,26 km</item>
+        <item>24-	Gira a la derecha hacia Av. Santa Ana	299 m</item>
+        <item>25-	Mantente a la derecha para continuar por Calle Velilla	1,30 km</item>
+        <item>26-	En la rotonda, toma la segunda salida en dirección LR-444	2,09 km</item>
+        <item>27-	Gira a la izquierda hacia Calle Barrera/LR-444Continúa hacia LR-444	94 m</item>
+        <item>28-	Mantente a la derecha para continuar por Plaza Iglesia/LR-444</item>
+        <item>29-	Continúa hacia LR-444		268 m</item>
+        <item>30-	Gira a la derecha hacia LR-341	4,47 km</item>
+        <item>31-	Gira a la izquierda hacia Ctra. Sotés/LR-341Continúa hacia LR-341	5,24 km</item>
+        <item>32-	En la rotonda, toma la tercera salida en dirección N-120ª	7,04 km</item>
+        <item>33-	Gira a la derecha hacia Ctra. de Logroño/N-120aContinúa hacia N-120ª	5,19 km</item>
+        <item>34-	En la rotonda, toma la segunda salida	221 m</item>
+        <item>35-	En la rotonda, toma la primera salida en dirección LR-313	230 m</item>
+        <item>36-	En la rotonda, toma la tercera salida en dirección Carr. de Logroño/N-120	3,73 km</item>
+        <item>37-	En la rotonda, toma la segunda salida y continúa por Carr. de Logroño/N-120	2,59 km</item>
+        <item>38-	Entra en la rotonda	161 m</item>
+        <item>39-	LR-207, 26324 Hervías, La Rioja, España Y VUELTA POR EL MISMO RECORRIDO</item>
+    </string-array>
+</resources>

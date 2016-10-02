@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sachonidas.halfrioja.NatacionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sector Natación:"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Punto de salida del triatlón: Zona del Bar El Embarcadero, dentro del agua iríamos contracorriente hacia el Puente de Sagasta, haciendo un giro de 180º y bajando a favor de la corriente hasta llegar al punto de salida. Todo ello señalizado con boyas de gran tamaño y vigilado por la Federación Riojana de Piragüismo, Cruz Roja y Bomberos. Subiríamos por las escaleras, con carpas de duchas para un primer deslave de agua, y nos dirigiríamos hasta la entrada del Adarraga sita en Avenida de la Playa donde estarían los boxes. Todo este recorrido estará con moqueta."
+                android:id="@+id/textView4"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgSecNat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Zona de Transicion"
+                android:id="@+id/textView5"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgTransicion" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inicio"
+                android:id="@+id/btnInicio"
+                android:layout_alignParentBottom="true"
+                android:layout_alignEnd="@+id/textView"
+                android:onClick="onClicLanzaInicio" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
