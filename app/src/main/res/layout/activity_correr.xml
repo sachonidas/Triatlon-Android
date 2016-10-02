@@ -11,7 +11,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="fill_parent"
         android:id="@+id/scrollView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" >
@@ -40,7 +40,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imgCorrer" />
+                android:id="@+id/imgCorrer"
+                android:layout_marginTop="-170dp" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -48,7 +49,8 @@
                 android:id="@+id/btnInicio"
                 android:layout_alignParentBottom="true"
                 android:layout_alignEnd="@+id/textView"
-                android:onClick="onClicLanzaInicio" />
+                android:onClick="onClicLanzaInicio"
+                android:layout_marginTop="-200dp" />
 
         </LinearLayout>
     </ScrollView>
