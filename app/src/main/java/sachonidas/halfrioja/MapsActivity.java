@@ -9,6 +9,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -46,7 +47,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(inicio, 15));
 
         LatLng salidaHalf = new LatLng(42.4715865,-2.4544017);
-        mMap.addMarker(new MarkerOptions().position(salidaHalf).title("Salida Half").icon(BitmapDescriptorFactory.fromResource(R.drawable.meta)));
+        mMap.addMarker(new MarkerOptions().position(salidaHalf).title("Salida Half").icon(BitmapDescriptorFactory.fromResource(R.drawable.meta)))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(salidaHalf));
 
         LatLng parkingHalf = new LatLng(42.4746517,-2.4539692);
