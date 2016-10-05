@@ -41,4 +41,5 @@
         <item>38-	Entra en la rotonda	161 m</item>
         <item>39-	LR-207, 26324 Hervías, La Rioja, España Y VUELTA POR EL MISMO RECORRIDO</item>
     </string-array>
+    <string name="title_activity_maps">Map</string>
 </resources>

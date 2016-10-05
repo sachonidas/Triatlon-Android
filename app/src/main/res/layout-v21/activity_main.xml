@@ -7,7 +7,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="sachonidas.halfrioja.MainActivity">
+    tools:context="sachonidas.halfrioja.MainActivity"
+    style="@android:style/Widget.DeviceDefault.Button.Borderless"
+    android:onClick="lanzaMapa">
 
     <ImageView
         android:layout_width="match_parent"
@@ -80,9 +82,8 @@
                     android:minWidth="100dp"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/mapa"
                     style="@style/Base.Widget.AppCompat.Button.Borderless"
-                    android:adjustViewBounds="false"
+                    android:src="@drawable/mapa"
                     android:onClick="lanzaMapa" />
 
             </LinearLayout>
@@ -104,8 +105,8 @@
                     android:minWidth="100dp"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/larioja"
-                    style="@style/Base.Widget.AppCompat.Button.Borderless" />
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:src="@drawable/logrono" />
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -119,7 +120,7 @@
                     android:minWidth="100dp"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/logrono"
+                    android:src="@drawable/larioja"
                     style="@style/Base.Widget.AppCompat.Button.Borderless" />
 
                 <ImageButton

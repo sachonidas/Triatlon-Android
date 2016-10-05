@@ -21,7 +21,7 @@ public class RecorridosActivity extends AppCompatActivity {
 
         imgNatacion.setImageResource(R.drawable.swimmer);
         imgBici.setImageResource(R.drawable.bici);
-        imgCorrer.setImageResource(R.drawable.correr2);
+        imgCorrer.setImageResource(R.drawable.correr);
     }
 
     public void lanzaNatacion(View view){

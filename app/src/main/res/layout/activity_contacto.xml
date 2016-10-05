@@ -68,18 +68,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Nombre:"
-                android:id="@+id/textView11" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/etNombre" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Asunto:"
                 android:id="@+id/textView12" />
 
@@ -118,7 +106,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Enviar"
-                android:id="@+id/btnEnviar" />
+                android:id="@+id/btnEnviar"
+                android:onClick="envioFormulario" />
         </LinearLayout>
     </LinearLayout>
 
