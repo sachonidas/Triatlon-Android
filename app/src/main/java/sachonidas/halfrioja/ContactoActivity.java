@@ -91,7 +91,7 @@ public class ContactoActivity extends AppCompatActivity {
             finish();
             Log.e("Finished" , "seing email...");
             Toast.makeText(ContactoActivity.this,
-                    "Confirmacion enviada! Nos vemos en la boda!!", Toast.LENGTH_SHORT).show();
+                    "Mensaje enviado!!", Toast.LENGTH_SHORT).show();
         } catch (android.content.ActivityNotFoundException ex) {
             Toast.makeText(ContactoActivity.this,
                     "There is no email client installed.", Toast.LENGTH_SHORT).show();

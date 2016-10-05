@@ -7,12 +7,15 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    private static final LatLng inicio = new LatLng(42.4625107,-2.4295986);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,10 +41,31 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        //mMap.addMarker(new MarkerOptions().position(alicante).title("Alicante"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(inicio, 15));
+
+        LatLng salidaHalf = new LatLng(42.4715865,-2.4544017);
+        mMap.addMarker(new MarkerOptions().position(salidaHalf).title("Salida Half").icon(BitmapDescriptorFactory.fromResource(R.drawable.meta)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(salidaHalf));
+
+        LatLng parkingHalf = new LatLng(42.4746517,-2.4539692);
+        mMap.addMarker(new MarkerOptions().position(parkingHalf).title("Parking").icon(BitmapDescriptorFactory.fromResource(R.drawable.parking)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(parkingHalf));
+
+        LatLng husaGranVia = new LatLng(42.4651768,-2.4548527);
+        mMap.addMarker(new MarkerOptions().position(husaGranVia).title("Hotel Husa Gran Vía").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotel)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(husaGranVia));
+
+        LatLng herenciaHotel = new LatLng(42.4659018,-2.4541758);
+        mMap.addMarker(new MarkerOptions().position(herenciaHotel).title("Hotel Herencia de Logroño").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotel)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(herenciaHotel));
+
+        LatLng husaLasCañas = new LatLng(42.4767164,-2.3986475);
+        mMap.addMarker(new MarkerOptions().position(husaLasCañas).title("Hotel Husa Las Cañas").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotel)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(husaLasCañas));
+
+
 
     }
 }
