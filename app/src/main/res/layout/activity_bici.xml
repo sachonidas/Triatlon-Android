@@ -49,29 +49,12 @@
                 android:scaleType="centerInside"
                 android:layout_marginTop="-170dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Perfil Sector Ciclista:"
-                android:id="@+id/textView9"
-                android:layout_weight="20"
-                android:layout_marginTop="-200dp" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imgPerfilBici"
-                android:scaleType="fitCenter"
-                android:layout_marginTop="-200dp" />
-
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Inicio"
                 android:id="@+id/btnInicio"
                 android:layout_alignParentBottom="true"
-                android:layout_alignEnd="@+id/textView"
                 android:onClick="onClicLanzaInicio"
                 android:layout_marginTop="-200dp" />
 

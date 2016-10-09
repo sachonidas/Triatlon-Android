@@ -65,10 +65,8 @@ public class BiciActivity extends AppCompatActivity {
         sp1.setAdapter(adapter2);
 
         imgSecBici = (ImageView)findViewById(R.id.imgSecBici);
-        imgPerfilBici = (ImageView)findViewById(R.id.imgPerfilBici);
 
-        imgSecBici.setImageResource(R.drawable.secbici);
-        imgPerfilBici.setImageResource(R.drawable.perfilbici);
+        imgSecBici.setImageResource(R.drawable.perfilbici);
 
     }
 

@@ -65,7 +65,7 @@
                     android:onClick="lanzaRecorridos"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    style="@android:style/Widget.Material.Button.Borderless"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
                     android:src="@drawable/recorridos"
                     android:background="?attr/selectableItemBackgroundBorderless" />
 
@@ -106,7 +106,7 @@
                     android:minWidth="100dp"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/larioja"
+                    android:src="@drawable/logrono"
                     style="@style/Base.Widget.AppCompat.Button.Borderless" />
 
                 <ImageButton
@@ -121,7 +121,7 @@
                     android:minWidth="100dp"
                     android:layout_weight="1"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/logrono"
+                    android:src="@drawable/larioja"
                     style="@style/Base.Widget.AppCompat.Button.Borderless" />
 
                 <ImageButton
